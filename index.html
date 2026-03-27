@@ -1,20 +1,30 @@
-<!DOCTYPE html>>
+<!DOCTYPE html>
 <html>
 
 <head>
-    <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="./resources/css/index.css" type="text/css">
+    <script src="./resources/js/script.js"></script>
     <title>Boolian Julian</title>
 </head>
 
-<body>
+<body onresize="SetWindowWidth()" onload="SetWindowWidthOnLoad()">
+    <div class="topBar">
+        <svg id="i01" width="400" height="70">
+            <polygon id="i02" points="50,10 100,10" style="fill:black;stroke:black;stroke-width:0;fill-rule:nonzero;" />
+        </svg>
+        <div><img src="resources/LogoNoLeg.png"></div>
+        <div class="centered">
+            <button class="topButton" type="button"> Portfolio</button>
+            <button class="topButton" type="button"> About me</button>
+            <button class="topButton" type="button"> Contact</button>
+        </div>
+    </div>
+
     <h1>Portfolio Julian Simpson</h1>
     <p>Random Game Projects</p>
-    <ul>
-        <li>Beat the Beat</li>
-        <li>Squash for 1</li>
-        <li>Brainblind</li>
-    </ul>
-    <p>Itch: <a href="https://boolianjulian.itch.io" target="_blank">Itch</a></p>
+    <p><a href="https://boolianjulian.itch.io" target="_blank">Itch Games </a></p>
+
+
 </body>
 
 </html>

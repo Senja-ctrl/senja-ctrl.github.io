@@ -3,14 +3,72 @@
 }
 
 h1 {
-    color: seagreen;
+    color: #ABFAA9;
+    background-color: black;
+    margin-top: 0%;
+    margin-right: 0%;
+    padding: 25px;
+}
+
+body {
+    margin: 0%;
+}
+
+.topBar {
+    position: relative;
+    text-align: left;
+}
+
+.centered {
+    position: absolute;
+    bottom: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: fit-content;
+}
+
+img {
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    width: 110px;
+    height: auto;
 }
 
 p,
-li {
+li,
+div,
+form {
+    margin-left: 25px;
     font-size: 28px;
 }
 
-a {
-    text-decoration: none;
+.topButton:hover {
+    color: #4C2C69;
+}
+
+.topButton {
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    font-size: 28px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+input,
+button {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    font-size: 28px;
+    background: none;
+    border: none;
+    cursor: pointer;
+
 }
