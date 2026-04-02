@@ -35,13 +35,14 @@ body {
 }
 
 .centered {
-
+    display: flex;
+    justify-content: space-evenly;
     position: absolute;
     bottom: 25%;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    width: fit-content;
+    width: 80%;
 }
 
 .topButton:hover {
@@ -56,6 +57,7 @@ body {
 }
 
 .topButton {
+    /* flex: 1; */
     font-family: Epilogue, sans-serif;
     z-index: -1;
     bottom: 0px;

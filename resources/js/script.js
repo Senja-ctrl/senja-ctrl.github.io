@@ -1,10 +1,5 @@
-function SetWindowWidthOnLoad() {
-    //screen.width
-    document.getElementById("i01").setAttribute("width", window.innerWidth);
-    SetWindowWidth();
-}
-
 function SetWindowWidth() {
+    document.getElementById("i01").setAttribute("width", window.innerWidth);
     const element = document.getElementById("i02")
     const x = 55;
     const y1 = 40;
